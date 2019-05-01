@@ -31,7 +31,8 @@ public class UnderWater : MonoBehaviour
     {
         RenderSettings.fog = true;
         RenderSettings.fogColor = normalColor;
-        RenderSettings.fogDensity = 0.01f;
+        float f = Random.Range(0f, 0.002f);
+        RenderSettings.fogDensity = f;
 
     }
 
@@ -39,7 +40,9 @@ public class UnderWater : MonoBehaviour
     {
         RenderSettings.fog = true;
         RenderSettings.fogColor = underwaterColor;
-        RenderSettings.fogDensity = 0.02f;
+        //float n = Random.Range(0f,0.02f);
+        //Debug.Log(n);
+        RenderSettings.fogDensity = 0.0075f;
 
     }
 }
