@@ -1,0 +1,16 @@
+{
+  "source": "Unity",
+  "applications": [
+    {
+      "app_key": "application.generated.unity.vrswimmingdemo.exe",
+      "launch_type": "url",
+      "url": "steam://launch/",
+      "action_manifest_path": "C:\\Users\\VR Student\\Downloads\\VR-Swimming-Demo-20190416T205624Z-001\\VR-Swimming-Demo\\actions.json",
+      "strings": {
+        "en_us": {
+          "name": "VR-Swimming-Demo [Testing]"
+        }
+      }
+    }
+  ]
+}
