@@ -15,7 +15,7 @@ public class UnderWaterProjector : MonoBehaviour
     {
         projector = GetComponent<Projector>();
         NextFrame();
-        InvokeRepeating("NextFrame", 1 / fps, 1 / fps);
+        InvokeRepeating("NextFrame", 1 / fps, 1.2f / fps);
     }
 
     void NextFrame()
